@@ -94,6 +94,11 @@ strong { color: inherit; font-weight: 700; }
 .page-footer { margin-top: 3rem; padding: 2rem 1.5rem; border-top: 1px solid var(--line); color: var(--muted); text-align: center; font-size: .875rem; line-height: 1.8; }
 .page-footer p + p { margin-top: .3rem; }
 
+/* Selectable citation block, aligned with the shared content column. */
+.citation-intro { margin-bottom: 1rem; color: var(--muted); }
+.bibtex-block { width: 100%; max-width: 100%; padding: 1.5rem; background: #2b2b2b; color: #f8f8f2; border-radius: 8px; font-family: 'Courier New', monospace; font-size: .9rem; line-height: 1.6; white-space: pre-wrap; overflow-wrap: anywhere; overflow-x: auto; }
+.bibtex-block code { padding: 0; background: transparent; color: inherit; font: inherit; }
+
 @media (max-width: 56rem) {
   .results-grid { grid-template-columns: minmax(0, 1fr); }
 }
